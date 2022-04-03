@@ -10,4 +10,8 @@ func main() {
 
 	_, err := fmt.Println(stringA)
 	fmt.Println(err)
+
+	// assignment mismatch: 1 variable but fmt.Println returns 2 values
+	// obj := fmt.Println(stringA)
+	// fmt.Println(obj)
 }
